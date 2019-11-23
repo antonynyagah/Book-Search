@@ -39,7 +39,7 @@ class Book extends Component{
                 </p>
 
                 <button className="button">
-                  <a href={bookinfo.infoLink}  className="active-book__website"> Purchase Book! </a>
+                  <a href={bookinfo.infoLink}  className="active-book__website"> Additional Information! </a>
                 </button>
 
                 <br></br>
