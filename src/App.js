@@ -52,7 +52,11 @@ render() {
         <Form getBook={this.getBook} />
         
         <Books books = {this.state.items}/>
-        
+        <footer>
+          By Antony Nyagah
+        </footer>
+        <br></br>
+        <footer>This app uses Google Books API</footer>
       </div>
     );
   }
